@@ -1,0 +1,3 @@
+[console_scripts]
+robot_teleop = proyecto_nodos.robot_teleop:main
+

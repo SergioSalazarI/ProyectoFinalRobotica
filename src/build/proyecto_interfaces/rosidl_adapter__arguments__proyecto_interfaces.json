@@ -1,0 +1,9 @@
+{
+  "package_name": "proyecto_interfaces",
+  "non_idl_tuples": [
+    "/home/sergio/proyecto_final_ws/src/proyecto_interfaces:msg/Banner.msg",
+    "/home/sergio/proyecto_final_ws/src/proyecto_interfaces:srv/StartNavigationTest.srv",
+    "/home/sergio/proyecto_final_ws/src/proyecto_interfaces:srv/StartPerceptionTest.srv",
+    "/home/sergio/proyecto_final_ws/src/proyecto_interfaces:srv/StartManipulationTest.srv"
+  ]
+}

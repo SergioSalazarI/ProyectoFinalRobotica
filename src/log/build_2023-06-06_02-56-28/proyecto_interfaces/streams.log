@@ -1,0 +1,339 @@
+[0.029s] Invoking command in '/home/sergio/proyecto_final_ws/src/build/proyecto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/proyecto_final_ws/install/turtle_bot_nodos:/home/sergio/proyecto_final_ws/install/proyecto_master_pkg:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake /home/sergio/proyecto_final_ws/src/proyecto_interfaces -DCMAKE_INSTALL_PREFIX=/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces
+[0.986s] -- The C compiler identification is GNU 11.3.0
+[1.087s] -- The CXX compiler identification is GNU 11.3.0
+[1.095s] -- Detecting C compiler ABI info
+[1.171s] -- Detecting C compiler ABI info - done
+[1.186s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.186s] -- Detecting C compile features
+[1.187s] -- Detecting C compile features - done
+[1.192s] -- Detecting CXX compiler ABI info
+[1.270s] -- Detecting CXX compiler ABI info - done
+[1.278s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.278s] -- Detecting CXX compile features
+[1.279s] -- Detecting CXX compile features - done
+[1.425s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.668s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.811s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.821s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.930s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.261s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.462s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.731s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.759s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.761s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.787s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[2.787s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.788s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.788s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.808s] -- Found PythonExtra: .so  
+[2.842s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.863s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.866s] -- Added test 'lint_cmake' to check CMake code style
+[2.867s] -- Added test 'xmllint' to check XML markup files
+[2.871s] -- Configuring done
+[2.905s] -- Generating done
+[2.908s] -- Build files have been written to: /home/sergio/proyecto_final_ws/src/build/proyecto_interfaces
+[2.914s] Invoked command in '/home/sergio/proyecto_final_ws/src/build/proyecto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/proyecto_final_ws/install/turtle_bot_nodos:/home/sergio/proyecto_final_ws/install/proyecto_master_pkg:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake /home/sergio/proyecto_final_ws/src/proyecto_interfaces -DCMAKE_INSTALL_PREFIX=/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces
+[2.917s] Invoking command in '/home/sergio/proyecto_final_ws/src/build/proyecto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/proyecto_final_ws/install/turtle_bot_nodos:/home/sergio/proyecto_final_ws/install/proyecto_master_pkg:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --build /home/sergio/proyecto_final_ws/src/build/proyecto_interfaces -- -j8 -l8
+[2.951s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.960s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.967s] [  3%] Built target ament_cmake_python_copy_proyecto_interfaces
+[3.267s] running egg_info
+[3.268s] creating proyecto_interfaces.egg-info
+[3.269s] writing proyecto_interfaces.egg-info/PKG-INFO
+[3.269s] writing dependency_links to proyecto_interfaces.egg-info/dependency_links.txt
+[3.269s] writing top-level names to proyecto_interfaces.egg-info/top_level.txt
+[3.269s] writing manifest file 'proyecto_interfaces.egg-info/SOURCES.txt'
+[3.271s] reading manifest file 'proyecto_interfaces.egg-info/SOURCES.txt'
+[3.272s] writing manifest file 'proyecto_interfaces.egg-info/SOURCES.txt'
+[3.297s] [  3%] Built target ament_cmake_python_build_proyecto_interfaces_egg
+[3.430s] [  3%] Built target proyecto_interfaces__cpp
+[3.446s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.448s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.449s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.464s] [ 10%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/proyecto_interfaces/msg/detail/banner__functions.c.o[0m
+[3.467s] [ 12%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/proyecto_interfaces/srv/detail/start_navigation_test__functions.c.o[0m
+[3.468s] [ 16%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/proyecto_interfaces/srv/detail/start_manipulation_test__functions.c.o[0m
+[3.469s] [ 16%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/proyecto_interfaces/srv/detail/start_perception_test__functions.c.o[0m
+[3.587s] [ 18%] [32m[1mLinking C shared library libproyecto_interfaces__rosidl_generator_c.so[0m
+[3.627s] [ 18%] Built target proyecto_interfaces__rosidl_generator_c
+[3.643s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.644s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.646s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.867s] [ 27%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/proyecto_interfaces/srv/start_perception_test__type_support.cpp.o[0m
+[3.868s] [ 27%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/proyecto_interfaces/msg/banner__type_support.cpp.o[0m
+[3.869s] [ 29%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/proyecto_interfaces/srv/start_navigation_test__type_support.cpp.o[0m
+[4.301s] [ 30%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/proyecto_interfaces/msg/detail/banner__type_support.cpp.o[0m
+[4.388s] [ 32%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/proyecto_interfaces/msg/banner__type_support.cpp.o[0m
+[4.422s] [ 34%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/proyecto_interfaces/msg/detail/dds_fastrtps/banner__type_support.cpp.o[0m
+[4.447s] [ 36%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proyecto_interfaces/msg/detail/banner__type_support.c.o[0m
+[4.513s] [ 38%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/proyecto_interfaces/msg/detail/banner__type_support_c.cpp.o[0m
+[4.697s] [ 40%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/proyecto_interfaces/srv/start_manipulation_test__type_support.cpp.o[0m
+[4.697s] [ 43%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proyecto_interfaces/srv/detail/start_navigation_test__type_support.c.o[0m
+[4.697s] [ 43%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/proyecto_interfaces/srv/detail/start_navigation_test__type_support_c.cpp.o[0m
+[4.697s] [ 45%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/proyecto_interfaces/srv/detail/dds_fastrtps/start_navigation_test__type_support.cpp.o[0m
+[4.698s] [ 47%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/proyecto_interfaces/srv/start_navigation_test__type_support.cpp.o[0m
+[4.752s] [ 49%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/proyecto_interfaces/srv/start_perception_test__type_support.cpp.o[0m
+[4.763s] [ 50%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proyecto_interfaces/srv/detail/start_perception_test__type_support.c.o[0m
+[4.851s] [ 52%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/proyecto_interfaces/srv/start_manipulation_test__type_support.cpp.o[0m
+[4.853s] [ 54%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proyecto_interfaces/srv/detail/start_manipulation_test__type_support.c.o[0m
+[5.032s] [ 56%] [32m[1mLinking C shared library libproyecto_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.034s] [ 58%] [32m[1mLinking CXX shared library libproyecto_interfaces__rosidl_typesupport_c.so[0m
+[5.445s] [ 60%] [32m[1mLinking CXX shared library libproyecto_interfaces__rosidl_typesupport_cpp.so[0m
+[5.448s] [ 61%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/proyecto_interfaces/srv/detail/start_perception_test__type_support_c.cpp.o[0m
+[5.474s] [ 63%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/proyecto_interfaces/srv/detail/start_navigation_test__type_support.cpp.o[0m
+[5.480s] [ 65%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/proyecto_interfaces/srv/detail/start_manipulation_test__type_support_c.cpp.o[0m
+[5.794s] [ 67%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/proyecto_interfaces/srv/detail/dds_fastrtps/start_perception_test__type_support.cpp.o[0m
+[5.794s] [ 69%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/proyecto_interfaces/srv/detail/start_perception_test__type_support.cpp.o[0m
+[6.101s] [ 69%] Built target proyecto_interfaces__rosidl_typesupport_introspection_c
+[6.111s] [ 70%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/proyecto_interfaces/srv/detail/dds_fastrtps/start_manipulation_test__type_support.cpp.o[0m
+[6.231s] [ 70%] Built target proyecto_interfaces__rosidl_typesupport_cpp
+[6.242s] [ 70%] Built target proyecto_interfaces__rosidl_typesupport_c
+[6.246s] [ 72%] [32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/proyecto_interfaces/srv/detail/start_manipulation_test__type_support.cpp.o[0m
+[6.533s] [ 74%] [32m[1mLinking CXX shared library libproyecto_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.619s] [ 74%] Built target proyecto_interfaces__rosidl_typesupport_fastrtps_c
+[6.667s] [ 76%] [32m[1mLinking CXX shared library libproyecto_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.744s] [ 76%] Built target proyecto_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.868s] [ 78%] [32m[1mLinking CXX shared library libproyecto_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.979s] [ 78%] Built target proyecto_interfaces__rosidl_typesupport_introspection_cpp
+[6.996s] [ 78%] Built target proyecto_interfaces
+[7.014s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.625s] [ 80%] Built target proyecto_interfaces__py
+[8.647s] [ 81%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/proyecto_interfaces/msg/_banner_s.c.o[0m
+[8.648s] [ 83%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/proyecto_interfaces/srv/_start_manipulation_test_s.c.o[0m
+[8.650s] [ 85%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/proyecto_interfaces/srv/_start_navigation_test_s.c.o[0m
+[8.650s] [ 87%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/proyecto_interfaces/srv/_start_perception_test_s.c.o[0m
+[8.773s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/proyecto_interfaces/libproyecto_interfaces__rosidl_generator_py.so[0m
+[8.860s] [ 89%] Built target proyecto_interfaces__rosidl_generator_py
+[8.883s] [ 94%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.884s] [ 94%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.884s] [ 94%] [32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.152s] [100%] [32m[1mLinking C shared library rosidl_generator_py/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.152s] [100%] [32m[1mLinking C shared library rosidl_generator_py/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.153s] [100%] [32m[1mLinking C shared library rosidl_generator_py/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.268s] [100%] Built target proyecto_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.278s] [100%] Built target proyecto_interfaces__rosidl_typesupport_c__pyext
+[9.279s] [100%] Built target proyecto_interfaces__rosidl_typesupport_introspection_c__pyext
+[9.314s] Invoked command in '/home/sergio/proyecto_final_ws/src/build/proyecto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/proyecto_final_ws/install/turtle_bot_nodos:/home/sergio/proyecto_final_ws/install/proyecto_master_pkg:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --build /home/sergio/proyecto_final_ws/src/build/proyecto_interfaces -- -j8 -l8
+[9.498s] Invoking command in '/home/sergio/proyecto_final_ws/src/build/proyecto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/proyecto_final_ws/install/turtle_bot_nodos:/home/sergio/proyecto_final_ws/install/proyecto_master_pkg:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --install /home/sergio/proyecto_final_ws/src/build/proyecto_interfaces
+[9.509s] -- Install configuration: ""
+[9.509s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/ament_index/resource_index/rosidl_interfaces/proyecto_interfaces
+[9.510s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces
+[9.510s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg
+[9.510s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.511s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail
+[9.511s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__type_support.h
+[9.511s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__functions.c
+[9.511s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__struct.h
+[9.512s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__functions.h
+[9.512s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/banner.h
+[9.512s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv
+[9.513s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_navigation_test.h
+[9.513s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail
+[9.513s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__type_support.h
+[9.513s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__functions.c
+[9.514s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__functions.h
+[9.514s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__struct.h
+[9.514s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__functions.h
+[9.515s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__functions.h
+[9.515s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__struct.h
+[9.515s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__functions.c
+[9.516s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__type_support.h
+[9.516s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__struct.h
+[9.516s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__functions.c
+[9.516s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__type_support.h
+[9.517s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_manipulation_test.h
+[9.517s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_perception_test.h
+[9.517s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/environment/library_path.sh
+[9.517s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/environment/library_path.dsv
+[9.518s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_generator_c.so
+[9.519s] -- Set runtime path of "/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_generator_c.so" to ""
+[9.519s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces
+[9.519s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg
+[9.520s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail
+[9.520s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__rosidl_typesupport_fastrtps_c.h
+[9.520s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.520s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv
+[9.521s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail
+[9.521s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__rosidl_typesupport_fastrtps_c.h
+[9.521s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__rosidl_typesupport_fastrtps_c.h
+[9.521s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__rosidl_typesupport_fastrtps_c.h
+[9.522s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.522s] -- Set runtime path of "/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.522s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces
+[9.523s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg
+[9.523s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.523s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail
+[9.523s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__type_support.c
+[9.524s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__rosidl_typesupport_introspection_c.h
+[9.524s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv
+[9.524s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail
+[9.524s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_c.h
+[9.524s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__type_support.c
+[9.525s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__rosidl_typesupport_introspection_c.h
+[9.525s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__type_support.c
+[9.525s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__rosidl_typesupport_introspection_c.h
+[9.525s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__type_support.c
+[9.526s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_introspection_c.so
+[9.526s] -- Set runtime path of "/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.526s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_c.so
+[9.526s] -- Set runtime path of "/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_c.so" to ""
+[9.527s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces
+[9.527s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg
+[9.527s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/banner.hpp
+[9.527s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail
+[9.528s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__struct.hpp
+[9.528s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__builder.hpp
+[9.528s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__traits.hpp
+[9.528s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv
+[9.528s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_manipulation_test.hpp
+[9.529s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_navigation_test.hpp
+[9.529s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail
+[9.529s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__builder.hpp
+[9.529s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__struct.hpp
+[9.529s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__struct.hpp
+[9.530s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__traits.hpp
+[9.530s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__builder.hpp
+[9.530s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__builder.hpp
+[9.530s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__traits.hpp
+[9.530s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__struct.hpp
+[9.531s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__traits.hpp
+[9.531s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_perception_test.hpp
+[9.531s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces
+[9.531s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg
+[9.531s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail
+[9.532s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__rosidl_typesupport_fastrtps_cpp.hpp
+[9.532s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/dds_fastrtps
+[9.532s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.532s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv
+[9.532s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail
+[9.533s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/dds_fastrtps
+[9.533s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__rosidl_typesupport_fastrtps_cpp.hpp
+[9.533s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__rosidl_typesupport_fastrtps_cpp.hpp
+[9.533s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__rosidl_typesupport_fastrtps_cpp.hpp
+[9.533s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.534s] -- Set runtime path of "/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.534s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces
+[9.534s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg
+[9.534s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail
+[9.534s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__rosidl_typesupport_introspection_cpp.hpp
+[9.534s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__type_support.cpp
+[9.535s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv
+[9.535s] -- Up-to-date: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail
+[9.535s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__type_support.cpp
+[9.535s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_cpp.hpp
+[9.535s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__type_support.cpp
+[9.535s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__type_support.cpp
+[9.536s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__rosidl_typesupport_introspection_cpp.hpp
+[9.536s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__rosidl_typesupport_introspection_cpp.hpp
+[9.536s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.536s] -- Set runtime path of "/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.536s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_cpp.so
+[9.536s] -- Set runtime path of "/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.537s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/environment/pythonpath.sh
+[9.537s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/environment/pythonpath.dsv
+[9.537s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info
+[9.537s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.537s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[9.537s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[9.538s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.538s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces
+[9.538s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg
+[9.538s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg/__init__.py
+[9.538s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg/_banner.py
+[9.538s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg/_banner_s.c
+[9.539s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_c.c
+[9.539s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.539s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.539s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.539s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.539s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.540s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/__init__.py
+[9.540s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv
+[9.540s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_manipulation_test_s.c
+[9.540s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/__init__.py
+[9.540s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_manipulation_test.py
+[9.540s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_perception_test_s.c
+[9.540s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_perception_test.py
+[9.541s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_navigation_test.py
+[9.541s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_navigation_test_s.c
+[9.541s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/libproyecto_interfaces__rosidl_generator_py.so
+[9.575s] Listing '/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces'...
+[9.575s] Compiling '/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/__init__.py'...
+[9.575s] Listing '/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg'...
+[9.575s] Compiling '/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg/__init__.py'...
+[9.575s] Compiling '/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg/_banner.py'...
+[9.575s] Listing '/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv'...
+[9.576s] Compiling '/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/__init__.py'...
+[9.576s] Compiling '/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_manipulation_test.py'...
+[9.576s] Compiling '/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_navigation_test.py'...
+[9.576s] Compiling '/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_perception_test.py'...
+[9.580s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.581s] -- Set runtime path of "/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.581s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.581s] -- Set runtime path of "/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.582s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.582s] -- Set runtime path of "/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.582s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_generator_py.so
+[9.583s] -- Set runtime path of "/home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_generator_py.so" to ""
+[9.583s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/msg/Banner.idl
+[9.583s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartNavigationTest.idl
+[9.583s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartPerceptionTest.idl
+[9.584s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartManipulationTest.idl
+[9.584s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/msg/Banner.msg
+[9.584s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartNavigationTest.srv
+[9.584s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartNavigationTest_Request.msg
+[9.584s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartNavigationTest_Response.msg
+[9.585s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartPerceptionTest.srv
+[9.585s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartPerceptionTest_Request.msg
+[9.585s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartPerceptionTest_Response.msg
+[9.585s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartManipulationTest.srv
+[9.585s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartManipulationTest_Request.msg
+[9.585s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartManipulationTest_Response.msg
+[9.585s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/ament_index/resource_index/package_run_dependencies/proyecto_interfaces
+[9.585s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/ament_index/resource_index/parent_prefix_path/proyecto_interfaces
+[9.586s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/environment/ament_prefix_path.sh
+[9.586s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/environment/ament_prefix_path.dsv
+[9.586s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/environment/path.sh
+[9.586s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/environment/path.dsv
+[9.586s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/local_setup.bash
+[9.586s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/local_setup.sh
+[9.586s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/local_setup.zsh
+[9.586s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/local_setup.dsv
+[9.587s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/package.dsv
+[9.587s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/ament_index/resource_index/packages/proyecto_interfaces
+[9.587s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_cExport.cmake
+[9.587s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.587s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.587s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.587s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.588s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.588s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_cExport.cmake
+[9.588s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.588s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_cppExport.cmake
+[9.588s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.588s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.588s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.589s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.589s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_cppExport.cmake
+[9.589s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.589s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_pyExport.cmake
+[9.589s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.589s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.589s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.590s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.590s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.590s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.590s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.590s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.590s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfacesConfig.cmake
+[9.590s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfacesConfig-version.cmake
+[9.590s] -- Installing: /home/sergio/proyecto_final_ws/src/install/proyecto_interfaces/share/proyecto_interfaces/package.xml
+[9.595s] Invoked command in '/home/sergio/proyecto_final_ws/src/build/proyecto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/proyecto_final_ws/install/turtle_bot_nodos:/home/sergio/proyecto_final_ws/install/proyecto_master_pkg:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --install /home/sergio/proyecto_final_ws/src/build/proyecto_interfaces

@@ -1,0 +1,8 @@
+Invoking command in '/home/sergio/proyecto_final_ws/build/proyecto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/proyecto_final_ws/install/proyecto_master_pkg:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --build /home/sergio/proyecto_final_ws/build/proyecto_interfaces -- -j8 -l8
+Invoked command in '/home/sergio/proyecto_final_ws/build/proyecto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/proyecto_final_ws/install/proyecto_master_pkg:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --build /home/sergio/proyecto_final_ws/build/proyecto_interfaces -- -j8 -l8
+Invoking command in '/home/sergio/proyecto_final_ws/build/proyecto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/proyecto_final_ws/install/proyecto_master_pkg:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --install /home/sergio/proyecto_final_ws/build/proyecto_interfaces
+Invoked command in '/home/sergio/proyecto_final_ws/build/proyecto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/proyecto_final_ws/install/proyecto_master_pkg:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --install /home/sergio/proyecto_final_ws/build/proyecto_interfaces

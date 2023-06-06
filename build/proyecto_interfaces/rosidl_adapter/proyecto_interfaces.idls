@@ -1,0 +1,4 @@
+/home/sergio/proyecto_final_ws/build/proyecto_interfaces/rosidl_adapter/proyecto_interfaces:msg/Banner.idl
+/home/sergio/proyecto_final_ws/build/proyecto_interfaces/rosidl_adapter/proyecto_interfaces:srv/StartNavigationTest.idl
+/home/sergio/proyecto_final_ws/build/proyecto_interfaces/rosidl_adapter/proyecto_interfaces:srv/StartPerceptionTest.idl
+/home/sergio/proyecto_final_ws/build/proyecto_interfaces/rosidl_adapter/proyecto_interfaces:srv/StartManipulationTest.idl

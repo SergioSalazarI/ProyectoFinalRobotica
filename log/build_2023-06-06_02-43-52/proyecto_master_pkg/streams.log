@@ -1,0 +1,27 @@
+[1.188s] Invoking command in '/home/sergio/proyecto_final_ws/src/proyecto_master_pkg': COMP_WORDBREAKS=
+"'><=;|&( PYTHONPATH=/home/sergio/proyecto_final_ws/build/proyecto_master_pkg/prefix_override:/home/sergio/proyecto_final_ws/install/proyecto_master_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/proyecto_master_pkg build --build-base /home/sergio/proyecto_final_ws/build/proyecto_master_pkg/build install --record /home/sergio/proyecto_final_ws/build/proyecto_master_pkg/install.log --install-scripts $base/lib/proyecto_master_pkg --single-version-externally-managed
+[1.332s] /home/sergio/.local/lib/python3.10/site-packages/setuptools/dist.py:788: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.333s]   warnings.warn(
+[1.428s] running egg_info
+[1.444s] writing ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/PKG-INFO
+[1.444s] writing dependency_links to ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/dependency_links.txt
+[1.444s] writing entry points to ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/entry_points.txt
+[1.444s] writing requirements to ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/requires.txt
+[1.444s] writing top-level names to ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/top_level.txt
+[1.479s] reading manifest file '../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/SOURCES.txt'
+[1.480s] writing manifest file '../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/SOURCES.txt'
+[1.480s] running build
+[1.480s] running build_py
+[1.481s] running install
+[1.481s] /home/sergio/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.481s]   warnings.warn(
+[1.487s] running install_lib
+[1.504s] running install_data
+[1.520s] running install_egg_info
+[1.536s] removing '/home/sergio/proyecto_final_ws/install/proyecto_master_pkg/lib/python3.10/site-packages/proyecto_master_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.537s] Copying ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info to /home/sergio/proyecto_final_ws/install/proyecto_master_pkg/lib/python3.10/site-packages/proyecto_master_pkg-0.0.0-py3.10.egg-info
+[1.537s] running install_scripts
+[1.726s] Installing master script to /home/sergio/proyecto_final_ws/install/proyecto_master_pkg/lib/proyecto_master_pkg
+[1.726s] writing list of installed files to '/home/sergio/proyecto_final_ws/build/proyecto_master_pkg/install.log'
+[1.781s] Invoked command in '/home/sergio/proyecto_final_ws/src/proyecto_master_pkg' returned '0': COMP_WORDBREAKS=
+"'><=;|&( PYTHONPATH=/home/sergio/proyecto_final_ws/build/proyecto_master_pkg/prefix_override:/home/sergio/proyecto_final_ws/install/proyecto_master_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/proyecto_master_pkg build --build-base /home/sergio/proyecto_final_ws/build/proyecto_master_pkg/build install --record /home/sergio/proyecto_final_ws/build/proyecto_master_pkg/install.log --install-scripts $base/lib/proyecto_master_pkg --single-version-externally-managed

@@ -1,0 +1,39 @@
+[1.505s] Invoking command in '/home/sergio/proyecto_final_ws/src/proyecto_nodos': COMP_WORDBREAKS=
+"'><=;|&( PYTHONPATH=/home/sergio/proyecto_final_ws/build/turtle_bot_nodos/prefix_override:/home/sergio/proyecto_final_ws/install/turtle_bot_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_nodos build --build-base /home/sergio/proyecto_final_ws/build/turtle_bot_nodos/build install --record /home/sergio/proyecto_final_ws/build/turtle_bot_nodos/install.log --single-version-externally-managed
+[1.862s] running egg_info
+[1.862s] creating ../../build/turtle_bot_nodos/proyecto_nodos.egg-info
+[1.882s] writing ../../build/turtle_bot_nodos/proyecto_nodos.egg-info/PKG-INFO
+[1.882s] writing dependency_links to ../../build/turtle_bot_nodos/proyecto_nodos.egg-info/dependency_links.txt
+[1.882s] writing entry points to ../../build/turtle_bot_nodos/proyecto_nodos.egg-info/entry_points.txt
+[1.883s] writing requirements to ../../build/turtle_bot_nodos/proyecto_nodos.egg-info/requires.txt
+[1.883s] writing top-level names to ../../build/turtle_bot_nodos/proyecto_nodos.egg-info/top_level.txt
+[1.883s] writing manifest file '../../build/turtle_bot_nodos/proyecto_nodos.egg-info/SOURCES.txt'
+[1.921s] reading manifest file '../../build/turtle_bot_nodos/proyecto_nodos.egg-info/SOURCES.txt'
+[1.922s] writing manifest file '../../build/turtle_bot_nodos/proyecto_nodos.egg-info/SOURCES.txt'
+[1.922s] running build
+[1.922s] running build_py
+[1.922s] creating /home/sergio/proyecto_final_ws/build/turtle_bot_nodos/build
+[1.923s] creating /home/sergio/proyecto_final_ws/build/turtle_bot_nodos/build/lib
+[1.923s] creating /home/sergio/proyecto_final_ws/build/turtle_bot_nodos/build/lib/proyecto_nodos
+[1.923s] copying proyecto_nodos/robot_teleop.py -> /home/sergio/proyecto_final_ws/build/turtle_bot_nodos/build/lib/proyecto_nodos
+[1.923s] copying proyecto_nodos/__init__.py -> /home/sergio/proyecto_final_ws/build/turtle_bot_nodos/build/lib/proyecto_nodos
+[1.923s] running install
+[1.923s] /home/sergio/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.923s]   warnings.warn(
+[1.929s] running install_lib
+[1.946s] creating /home/sergio/proyecto_final_ws/install/turtle_bot_nodos/lib/python3.10/site-packages/proyecto_nodos
+[1.946s] copying /home/sergio/proyecto_final_ws/build/turtle_bot_nodos/build/lib/proyecto_nodos/robot_teleop.py -> /home/sergio/proyecto_final_ws/install/turtle_bot_nodos/lib/python3.10/site-packages/proyecto_nodos
+[1.946s] copying /home/sergio/proyecto_final_ws/build/turtle_bot_nodos/build/lib/proyecto_nodos/__init__.py -> /home/sergio/proyecto_final_ws/install/turtle_bot_nodos/lib/python3.10/site-packages/proyecto_nodos
+[1.946s] byte-compiling /home/sergio/proyecto_final_ws/install/turtle_bot_nodos/lib/python3.10/site-packages/proyecto_nodos/robot_teleop.py to robot_teleop.cpython-310.pyc
+[1.947s] byte-compiling /home/sergio/proyecto_final_ws/install/turtle_bot_nodos/lib/python3.10/site-packages/proyecto_nodos/__init__.py to __init__.cpython-310.pyc
+[1.947s] running install_data
+[1.967s] copying resource/proyecto_nodos -> /home/sergio/proyecto_final_ws/install/turtle_bot_nodos/share/ament_index/resource_index/packages
+[1.967s] creating /home/sergio/proyecto_final_ws/install/turtle_bot_nodos/share/proyecto_nodos
+[1.967s] copying package.xml -> /home/sergio/proyecto_final_ws/install/turtle_bot_nodos/share/proyecto_nodos
+[1.967s] running install_egg_info
+[1.986s] Copying ../../build/turtle_bot_nodos/proyecto_nodos.egg-info to /home/sergio/proyecto_final_ws/install/turtle_bot_nodos/lib/python3.10/site-packages/proyecto_nodos-0.0.0-py3.10.egg-info
+[1.987s] running install_scripts
+[2.174s] Installing robot_teleop script to /home/sergio/proyecto_final_ws/install/turtle_bot_nodos/lib/proyecto_nodos
+[2.175s] writing list of installed files to '/home/sergio/proyecto_final_ws/build/turtle_bot_nodos/install.log'
+[2.204s] Invoked command in '/home/sergio/proyecto_final_ws/src/proyecto_nodos' returned '0': COMP_WORDBREAKS=
+"'><=;|&( PYTHONPATH=/home/sergio/proyecto_final_ws/build/turtle_bot_nodos/prefix_override:/home/sergio/proyecto_final_ws/install/turtle_bot_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_nodos build --build-base /home/sergio/proyecto_final_ws/build/turtle_bot_nodos/build install --record /home/sergio/proyecto_final_ws/build/turtle_bot_nodos/install.log --single-version-externally-managed
